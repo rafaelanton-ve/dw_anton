@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js" defer></script>
+    <title>anton_webdev</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <skills>
+
+    </skills>
+    <contact-me>
+    <div class="contact-form-container">
+        <form class="contact-form" onsubmit="sendEmail(event)">
+            <h2>Contáctame</h2>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="message-sent" style="display: none;">Mensaje enviado correctamente!</p>
+    </contact-me>
+    <footer>
+
+    </footer>
+</body>
+</html>
