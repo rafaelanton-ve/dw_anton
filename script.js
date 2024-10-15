@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-    emailjs.init("TU_ID_DE_USUARIO");
+    emailjs.init("vQRIayhTbHG5bPlAb");
 });
 
 function sendEmail(event) {
     event.preventDefault();
-    emailjs.sendForm('service_jqn2ryn', 'TU_PLANTILLA_ID', event.target)
+    emailjs.sendForm('service_jqn2ryn', 'template_13bytv7', event.target)
         .then(function(response) {
             document.getElementById('message-sent').style.display = 'block';
         }, function(error) {
