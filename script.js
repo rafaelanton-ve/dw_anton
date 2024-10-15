@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function sendEmail(event) {
     event.preventDefault();
-    emailjs.sendForm('TU_SERVICIO_ID', 'TU_PLANTILLA_ID', event.target)
+    emailjs.sendForm('service_jqn2ryn', 'TU_PLANTILLA_ID', event.target)
         .then(function(response) {
             document.getElementById('message-sent').style.display = 'block';
         }, function(error) {
