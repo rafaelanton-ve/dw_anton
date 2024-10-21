@@ -8,6 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flexbox;
+    align-content: center;
 }
 nav li{
     list-style: none;
@@ -21,6 +22,7 @@ nav ul {
 }
 .contact-form-container {
     background: #fff;
+    align-content: center;
     min-width: 300px;
     max-width: 70%;
     padding: 30px;
