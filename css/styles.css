@@ -1,15 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    display: flexbox;
 }
-
+nav li{
+    list-style: none;
+    padding: 8px
+}
+a{
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+}
 .contact-form-container {
     background: #fff;
+    min-width: 300px;
+    max-width: 70%;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
