@@ -12,10 +12,11 @@ body {
 }
 nav li{
     list-style: none;
-    padding: 8px
+    padding: 4px
 }
 a{
     text-decoration: none;
+    color: #28a745;
 }
 nav ul {
     display: flex;
