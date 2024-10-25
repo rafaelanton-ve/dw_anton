@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --verde_platzi: #0AE98A;
+    --azul_platzi: #13161C;
+    --violeta_platzi: #6750A4;
+    --blanco
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -10,13 +16,16 @@ body {
     display: flexbox;
     align-content: center;
 }
+nav {
+    background-color: var(--violeta_platzi);
+}
 nav li{
     list-style: none;
     padding: 4px
 }
 a{
     text-decoration: none;
-    color: #28a745;
+    color: var(--verde_platzi);
 }
 nav ul {
     display: flex;
@@ -25,7 +34,7 @@ nav ul {
     background: #fff;
     align-content: center;
     min-width: 300px;
-    max-width: 70%;
+    max-width: 55%;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
