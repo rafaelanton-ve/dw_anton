@@ -7,12 +7,11 @@
     --verde_platzi: #0AE98A;
     --azul_platzi: #13161C;
     --violeta_platzi: #6750A4;
-    --blanco
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: var(--verde_platzi);
     display: flexbox;
     align-content: center;
 }
@@ -29,6 +28,10 @@ a{
 }
 nav ul {
     display: flex;
+}
+.profile-photo {
+    width: 160px ;
+    height: 160px;
 }
 .contact-form-container {
     background: #fff;
@@ -68,5 +71,5 @@ nav ul {
 }
 
 .contact-form button:hover {
-    background-color: #218838;
+    background-color: var(--verde_platzi);
 }
