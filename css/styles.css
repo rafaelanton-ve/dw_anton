@@ -13,10 +13,20 @@ body {
     font-family: Arial, sans-serif;
     background-color: var(--azul_platzi);
     display: flexbox;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    margin: 0 16px 16px 16px;
+    display: flexbox;
+
 }
 nav {
     background-color: var(--violeta_platzi);
+    padding: 8px 8px 8px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -29,9 +39,20 @@ a{
 nav ul {
     display: flex;
 }
+.banner{
+    height: 132px;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    background: rgba(var(--violeta_platzi), 0.5);
+    border-radius: 0 0 15px 15px;
+    box-shadow: 5px 5px 5px;
+}
 .profile-photo {
     width: 160px ;
     height: 160px;
+    margin-top: 16px;
+    position: absolute;
     border: 5px;
     border-style:solid;
     border-radius: 100%;
@@ -52,7 +73,7 @@ nav ul {
 }
 .contact-form-container {
     background: var(--violeta_platzi);
-    align-content: center;
+    margin: 0 auto;
     min-width: 300px;
     max-width: 55%;
     padding: 30px;
