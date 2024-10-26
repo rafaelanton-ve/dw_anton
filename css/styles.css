@@ -11,7 +11,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--verde_platzi);
+    background-color: var(--azul_platzi);
     display: flexbox;
     align-content: center;
 }
@@ -32,9 +32,26 @@ nav ul {
 .profile-photo {
     width: 160px ;
     height: 160px;
+    border: 5px;
+    border-style:solid;
+    border-radius: 100%;
+    border-color: var(--verde_platzi);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#photo{
+    width: 135px;
+    height: 135px;
+    border-radius: 100%;
+    background-image: url('/assets/IMG_20201223_133340_078.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
 }
 .contact-form-container {
-    background: #fff;
+    background: var(--violeta_platzi);
     align-content: center;
     min-width: 300px;
     max-width: 55%;
