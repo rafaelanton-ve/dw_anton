@@ -96,7 +96,34 @@ nav ul {
     height: 300px;
     background-color: var(--verde_platzi);
 }
-
+.content-certifications{
+    width: 100%;
+    height: auto;
+}
+.card-certification{
+    width: 100px;
+    height: 100px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed;
+    border-color: var(--azul_platzi);
+    border-radius: 5px;
+    margin: 8px;
+}
+.titlecard-certification{
+    width: 80px;
+    height: 64px;
+    font-size: 10px;
+    color: var(--azul_platzi);
+    margin: auto;
+}
+.tecnologiescard-certification{
+    width: 80px;
+    height: auto;
+    border-top: dashed var(--azul_platzi);
+    margin: auto;
+}
 .contact-form h2 {
     margin-bottom: 20px;
 }
