@@ -7,7 +7,7 @@
     --verde_platzi: #0AE98A;
     --azul_platzi: #13161C;
     --violeta_platzi: #6750a4;
-    --violeta-opacity: rgba(103, 80, 164, 0.25
+    --violeta-opacity: rgba(103, 80, 164, 0.2
 );
 
 }
@@ -20,16 +20,29 @@ body {
     align-items: center;
 }
 header{
-    margin: 0 16px 16px 16px;
+    width: 100%;
+    height: auto;
+    padding: 0 auto;
     display: flexbox;
 
 }
-nav {
-    background-color: var(--violeta-opacity);
-    padding: 8px 8px 8px 8px;
+nav{
+    min-width: 320px;
+    max-width: 600px;
+    height: 56px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    background: var(--violeta-opacity);
+    border-radius: 0 0 15px 15px;
+    box-shadow: 5px 5px 5px;
+}
+nav ul {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 10px 10px;
+    
 }
 nav li{
     list-style: none;
@@ -38,18 +51,6 @@ nav li{
 a{
     text-decoration: none;
     color: var(--verde_platzi);
-}
-nav ul {
-    display: flex;
-}
-.banner{
-    height: 132px;
-    margin-bottom: 64px;
-    display: flex;
-    justify-content: center;
-    background: var(--violeta-opacity);
-    border-radius: 0 0 15px 15px;
-    box-shadow: 5px 5px 5px;
 }
 .profile-photo {
     width: 160px ;
@@ -72,7 +73,6 @@ nav ul {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  
 }
 .presentation{
     width: 100%;
