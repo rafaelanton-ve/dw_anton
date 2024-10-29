@@ -93,12 +93,16 @@ a{
 }
 .skills{
     width: 100%;
-    height: 300px;
+    height: auto;
     background-color: var(--verde_platzi);
 }
+
 .content-certifications{
-    width: 100%;
+    width: ;
     height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
 }
 .card-certification{
     width: 100px;
@@ -109,7 +113,7 @@ a{
     border-style: dashed;
     border-color: var(--azul_platzi);
     border-radius: 5px;
-    margin: 8px;
+    margin: 4px;
 }
 .titlecard-certification{
     width: 80px;
