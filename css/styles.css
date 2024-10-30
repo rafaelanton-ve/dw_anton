@@ -7,12 +7,12 @@
     --verde_platzi: #0AE98A;
     --azul_platzi: #13161C;
     --violeta_platzi: #6750a4;
-    --violeta-opacity: rgba(103, 80, 164, 0.2
-);
-
+    --violeta-opacity: rgba(103, 80, 164, 0.2);
 }
 
 body {
+    width: 100%;
+    height: auto;
     font-family: Arial, sans-serif;
     background-color: var(--azul_platzi);
     display: flexbox;
@@ -27,6 +27,7 @@ header{
 
 }
 nav{
+    width: 320px;
     min-width: 320px;
     max-width: 600px;
     height: 160px;
@@ -70,7 +71,7 @@ a{
     width: 135px;
     height: 135px;
     border-radius: 100%;
-    background-image: url('/assets/IMG_20201223_133340_078.jpg');
+    background-image: url('/assets/IMG_20201223_133340_078tiny.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
